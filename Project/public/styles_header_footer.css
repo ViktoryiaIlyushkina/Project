@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+    background-color: #303C6C;
+    width: 100vw;
+    margin-bottom: 1vh;
+    overflow: hidden;
+}
+
+#headerTitle {
+    color: white;
+    font-size: 26px;
+    padding-left: 2vw;
+}
+#register, #exit {
+    display: flex;
+    justify-self:flex-end;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+#exit p {
+    padding: 1.5vh 2vw;
+}
+#exit p:hover {
+    background-color: #6e84db;
+}
+#register a, #exit a{
+    color: white;
+    font-size: 20px;
+}
+.menuOption {
+    display: flex;
+    justify-self:flex-end;
+    color: white;
+    font-size: 20px;
+    padding: 0 2vw;
+    margin: 0;
+}
+.menuOption:hover {
+    background-color: #6e84db;
+}
+
+#user {
+    color: white;
+    font-size: 20px;
+}

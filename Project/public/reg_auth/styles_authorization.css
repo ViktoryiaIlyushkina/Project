@@ -1,0 +1,91 @@
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fbe8a6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    width: 30vw;
+    flex-direction: column;
+    background-color: #b4dfe5;
+    margin-top: 20vh;
+    border-radius: 10px 100px / 120px;
+  }
+  
+  .inputBox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 2vw;
+  }
+  
+  input {
+    width: 20vw;
+    height: 2.5vh;
+    margin-bottom: 2vh;
+  }
+  
+  #EnterBtn, #registerBtn {
+    text-align: center;
+    margin-bottom: 5vh;
+    border: 2px solid  #303C6C;
+    background-color:  #303C6C;
+    height: 4vh;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+  }
+  #EnterBtn {
+    margin-bottom: 0.5vh;
+  }
+  
+  h3 {
+    margin: 0;
+    float: left;
+  }
+  
+  h2 {
+    margin: 3vh 0 0 0;
+  }
+  
+  .warn {
+    color: #b50303;
+    float: right;
+    font-size: 14px;
+    margin: 0 0 0 1vw;
+    max-width: 12vw;
+  }
+  
+  .text {
+    box-sizing: border-box;
+    max-width: 20vw;
+  }
+  
+  p {
+    margin: 0.5vh 1vw;
+  }
+
+  .saveLoginPass {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: -3vh;
+  }
+  
+  .saveCheckbox {
+    width: 1vw;
+    margin-bottom: 5vh;
+  }
+
+  .passwordShowHideIcon {
+    /* display:block;
+    float: right; */
+    width: 10vw;
+  }

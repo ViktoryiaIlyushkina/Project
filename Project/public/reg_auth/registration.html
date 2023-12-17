@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./../reg_auth/styles_authorization.css">
+    <link rel="stylesheet" href="./../styles_header_footer.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <header>
+        <div id="headerTitle">
+            <p>Smart Examiner</p>
+        </div>
+        <div id="register">
+          <p><a href="http://localhost:3000">Войти</a></p>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Регистрация</h2>
+    
+        <div class="inputBox">
+    
+          <div class="text">
+            <h3>Логин:</h3>
+            <p class="warn" id="warning2"></p>
+          </div>
+          <input id="loginReg"></input>
+    
+          <div class="text">
+            <h3>Пароль:</h3>
+            <p class="warn" id="warning3"></p>
+          </div>
+          <input type="password" id="passwordReg"></input>
+    
+          <div class="text">
+            <h3>Повторите пароль:</h3>
+            <p class="warn" id="warning4"></p>
+          </div>
+          <input type="password" id="repeat"></input>
+          <button id="registerBtn">Зарегистрироваться</button>
+    
+        </div>
+    
+    <script defer src="./../reg_auth/script_registration.js"></script>
+</body>
+</html>
